@@ -61,7 +61,8 @@ export function EverythingDisguisedWithPwMgrSettingsForm() {
 Here,
 - Labels are obfuscated by adding a [ZWJ character](https://en.wikipedia.org/wiki/Zero-width_joiner)
 - `id` and `names` are obfuscated by adding hyphens.
-- We also add various attributes provided by password managers, but lastpass does not seem to respect that
+- We also add various attributes provided by password managers, but lastpass does not seem to respect that.
+- Password field type is changed to type `text` and to make it hidden [text-security](https://github.com/noppa/text-security) package is used. It provides a css that changes the font of the text to disc.
 
 <img width="1214" alt="image" src="https://github.com/user-attachments/assets/9ef0bed6-6b9e-4aaa-8f0d-494a6e2aa31f">
 
